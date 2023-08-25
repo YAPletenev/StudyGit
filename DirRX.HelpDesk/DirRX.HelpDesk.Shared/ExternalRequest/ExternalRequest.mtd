@@ -20,6 +20,25 @@
   "IconResourcesKeys": [],
   "IntegrationServiceName": "HelpDeskExternalRequest",
   "OperationsClass": "",
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "9b18ed88-8dc3-4ce4-b08c-2ab23ed09441",
+      "Name": "Author",
+      "Code": "Author",
+      "EntityGuid": "b7905516-2be5-4931-961c-cb38d5677565",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "819adb1c-9a9e-4fe8-84c3-301c7b91414e"
+    },
+    {
+      "$type": "Sungero.Metadata.TextPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "492c8297-c551-45ec-810a-f991a03fc1dd",
+      "Name": "Result",
+      "Code": "Result",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToTextBinder",
+      "PreviousPropertyGuid": "9b18ed88-8dc3-4ce4-b08c-2ab23ed09441"
+    }
+  ],
   "PublicStructures": [],
   "ResourcesKeys": [],
   "RibbonCardMetadata": {
